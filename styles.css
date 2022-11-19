@@ -3,9 +3,60 @@ h1 {
 }
 
 .highlight {
-    background-color: yellow;
+    background-color: black;
+    color: white;
 }
 
 #intro {
     font-size: 20px;
 }
+
+#About-me > p {
+    color: red;
+}
+
+. {
+    background-color: black;
+}
+
+.my-name {
+    color: blueviolet;
+}
+
+.cap-one {
+
+}
+
+.wigan-one {
+    align-items: center;
+}
+
+#box:disabled {
+   
+    color: blue;
+}
+
+.header-link {
+    padding-right: 10px;
+    text-decoration: none;
+    border: 5px #008080;
+    
+}
+
+p::first-letter {
+    color: red;
+}
+
+.button-link:hover {
+    padding-right: 10px;
+    background-color: #008080;
+    cursor: pointer;
+    text-decoration: none;
+    border: 5px #008080;
+    border-radius: 5px;
+}
+
+.header-link-container {
+    height: 20px;
+}
+
