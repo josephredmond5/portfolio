@@ -12,7 +12,8 @@ h1 {
 }
 
 #About-me > p {
-    color: red;
+    color: teal;
+    font-family: monospace;
 }
 
 . {
@@ -20,15 +21,7 @@ h1 {
 }
 
 .my-name {
-    color: blueviolet;
-}
-
-.cap-one {
-
-}
-
-.wigan-one {
-    align-items: center;
+    color: black;
 }
 
 #box:disabled {
@@ -43,9 +36,7 @@ h1 {
     
 }
 
-p::first-letter {
-    color: red;
-}
+
 
 .button-link:hover {
     padding-right: 10px;
@@ -58,5 +49,30 @@ p::first-letter {
 
 .header-link-container {
     height: 20px;
+}
+
+
+* {
+    background-color: whitesmoke;
+}
+
+.intro {
+    color: teal;
+   font-size: x-large;
+    text-decoration: solid;
+    font-family: monospace;
+}
+
+.intro-case {
+    font-family: monospace;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.main-pic {
+
 }
 
