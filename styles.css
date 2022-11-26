@@ -22,6 +22,9 @@ h1 {
 
 .my-name {
     color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
 }
 
 #box:disabled {
@@ -32,18 +35,16 @@ h1 {
 .header-link {
     padding-right: 10px;
     text-decoration: none;
-    border: 5px #008080;
+    border: 5px teal;
     
 }
 
-
-
 .button-link:hover {
     padding-right: 10px;
-    background-color: #008080;
+    background-color: teal;
     cursor: pointer;
     text-decoration: none;
-    border: 5px #008080;
+    border: 5px teal;
     border-radius: 5px;
 }
 
@@ -53,7 +54,7 @@ h1 {
 
 
 * {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .intro {
@@ -72,7 +73,10 @@ h1 {
     width: 8em
 }
 
-.main-pic {
-
+.main-pic-container {
+    display: flex;
+    justify-content: center;
 }
+
+
 
