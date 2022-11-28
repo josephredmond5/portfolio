@@ -35,13 +35,13 @@ h1 {
 .header-link {
     padding-right: 10px;
     text-decoration: none;
-    border: 5px teal;
+    border: 5px white;
     
 }
 
 .button-link:hover {
     padding-right: 10px;
-    background-color: teal;
+    background-color: #D6E5CD;
     cursor: pointer;
     text-decoration: none;
     border: 5px teal;
@@ -76,6 +76,12 @@ h1 {
 .main-pic-container {
     display: flex;
     justify-content: center;
+}
+
+@media all and (max-width: 500px;) {
+    body {
+        background-color: aqua;
+    }
 }
 
 
